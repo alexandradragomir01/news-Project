@@ -11,5 +11,5 @@ This application is made with react.js technologies. The application creates a n
 * npm install / npm i
 * npm start
 
-### The site is deployed here: https://newssproject.netlify.app
+### The site is deployed here: https://newssproject.netlify.app/
 
