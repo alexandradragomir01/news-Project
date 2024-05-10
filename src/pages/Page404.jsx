@@ -7,16 +7,15 @@ function Page404() {
     <div className="Page404 bg-primary text-white d-flex flex-column justify-content-center align-items-center">
       <Container className="d-flex flex-column justify-content-center align-items-center">
         <p className="h4 text-center">
-          Avem o știre nu tocmai grozavă... pagina pe care ai încercat să o
-          accesezi nu (mai) există.
+          We have some not-so-great news... the page you tried to access doesn't exist.
         </p>
-        <strong className="error404">404 :(</strong>
+        <strong className="error404">404 :</strong>
         <p className="h4 text-center">
-          Hai{" "}
+          Let's go back {" "}
           <Link to="/" className="text-secondary">
-            înapoi pe site
+            to the site 
           </Link>{" "}
-          să vezi o nouă știre!
+          to check out a new story!
         </p>
       </Container>
     </div>
@@ -24,3 +23,4 @@ function Page404() {
 }
 
 export default Page404;
+
